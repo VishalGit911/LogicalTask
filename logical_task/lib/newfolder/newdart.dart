@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class Newdart extends StatefulWidget {
@@ -9,6 +8,9 @@ class Newdart extends StatefulWidget {
 }
 
 class _NewdartState extends State<Newdart> {
+  String deep = "deep";
+  String vishal = "Vishal";
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
